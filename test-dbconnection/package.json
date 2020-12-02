@@ -1,0 +1,15 @@
+{
+  "name": "dlrtest",
+  "version": "1.0.0",
+  "description": "Proyecto/Tarea para la empresa DLR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mateo Albarracin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0"
+  }
+}

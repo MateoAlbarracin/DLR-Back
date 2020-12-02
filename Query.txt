@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS Endpoints(
+    endpoint char(60) not null,
+    metodo char(6) not null,
+    seguridad char(1) not null,
+    tabla char(30) not null
+);
+
+CREATE TABLE IF NOT EXISTS Propiedades_Endpoints(
+    endpoint char(60) not null,
+    metodo char(6) not null,
+    propiedad char(15) not null,
+    columna char(15) not null,
+    requerido char(1) not null,
+    tipo int not null
+);
